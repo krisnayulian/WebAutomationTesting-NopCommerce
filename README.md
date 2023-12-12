@@ -6,10 +6,18 @@ Having knowledge to create Web Automation using Selenium Python and Java. Mobile
 
 
 <h3 align="left">The base URL : https://demo.nopcommerce.com/</h3>
-<h5 align="left">AddProductReviewTest
-AddProductToCartTest</h5>
-
-
+<h5 align="left">AddProductReviewTest</h5>
+<h5 align="left">AddProductToCartTest</h5>
+<h5 align="left">AddProductToCompareTest</h5>
+<h5 align="left">AddProductToWishlistTest</h5>
+<h5 align="left">ChangeCurrencyTest</h5>
+<h5 align="left">ChangePasswordTest</h5>
+<h5 align="left">ContactUsTest</h5>
+<h5 align="left">EmailFriendTest</h5>
+<h5 align="left">GuestUSerCheckoutProduct</h5>
+<h5 align="left">RegisteredUserCheckoutProduct</h5>
+<h5 align="left">SearchProductTest</h5>
+<h5 align="left">UserRegisterationTest</h5>
 
 
 
