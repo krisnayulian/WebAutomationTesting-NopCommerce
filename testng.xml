@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nopCommerace Regression Tests">
+    <parameter name="browser" value="chrome"/>
+    <test verbose="2" preserve-order="true" name="/home/krisna/IdeaProjects/WebAutomationTesting-NopCommerce">
+        <classes>
+
+            <class name="tests.RegisteredUserCheckoutProduct">
+                <methods>
+                    <include name="userCanregisterSuccessfully"/>
+                    <include name="RegisteredUserCanLogin"/>
+                    <include name="UserCanSearchForProduct"/>
+                    <include name="UserCanAddProductToCart"/>
+                    <include name="UserCanCheckoutProduct"/>
+                    <include name="UserCanDownloadInvoice"/>
+                    <include name="RegisteredUserCanLogout"/>
+                </methods>
+            </class>
+
+            <class name="tests.ChangeCurrencyTest">
+                <methods>
+                    <include name="UserCanChangeCurrency"/>
+                    <include name="UserCanSearchForProduct"/>
+                </methods>
+            </class>
+
+            <class name="tests.GuestUSerCheckoutProduct">
+                <methods>
+                    <include name="UserCanSearchForProduct"/>
+                    <include name="UserCanAddProductToCart"/>
+                    <include name="UserCanCheckoutProduct"/>
+                    <include name="UserCanDownloadInvoice"/>
+                </methods>
+            </class>
+
+            <class name="tests.AddProductToCartTest">
+                <methods>
+                    <include name="UserCanSearchForProduct"/>
+                    <include name="UserCanAddProductToCart"/>
+                    <include name="UserCanUpdateQuantity"/>
+                    <include name="UserCanRemoveProductFromCart"/>
+                </methods>
+            </class>
+
+            <class name="tests.AddProductReviewTest">
+                <methods>
+                    <include name="userCanregisterSuccessfully"/>
+                    <include name="RegisteredUserCanLogin"/>
+                    <include name="UserCanSearchForProduct"/>
+                    <include name="UserCanAddReview"/>
+                    <include name="RegisteredUserCanLogout"/>
+                </methods>
+            </class>
+
+            <class name="tests.AddProductToCompareTest">
+                <methods>
+                    <include name="UserCanSearchForProductOneAndAddToCompareList"/>
+                    <include name="UserCanSearchForProductTwoAndAddToCompareList"/>
+                    <include name="UserCanCompareProducts"/>
+                    <include name="UserCanRemoveList"/>
+                </methods>
+            </class>
+            <class name="tests.AddProductToWishlistTest">
+                <methods>
+                    <include name="UserCanSearchForProduct"/>
+                    <include name="UserCanAddProductToWishlist"/>
+                    <include name="UserCanRemoveProductFromWishlist"/>
+                </methods>
+            </class>
+
+            <class name="tests.ChangePasswordTest">
+                <methods>
+                    <include name="userCanregisterSuccessfully"/>
+                    <include name="RegisteredUserCanLogin"/>
+                    <include name="RegisteredUserCanChangePassword"/>
+                    <include name="RegisteredUserCanLogout"/>
+                    <include name="RegisteredUserCanLogin2"/>
+                </methods>
+            </class>
+
+            <class name="tests.EmailFriendTest">
+                <methods>
+                    <include name="userCanregisterSuccessfully"/>
+                    <include name="RegisteredUserCanLogin"/>
+                    <include name="UserCanSearchForProduct"/>
+                    <include name="RegisteredUserCanSendProductToFriend"/>
+                    <include name="RegisteredUserCanLogout"/>
+                </methods>
+            </class>
+
+            <class name="tests.ContactUsTest">
+                <methods>
+                    <include name="UserCanUseContactUs"/>
+                </methods>
+            </class>
+
+
+
+        </classes>
+    </test>
+</suite>
